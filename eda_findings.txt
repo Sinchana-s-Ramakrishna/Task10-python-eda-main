@@ -1,0 +1,12 @@
+EDA Findings – Students Performance Dataset
+
+1. Dataset contains 1000 rows and 8 columns.
+2. No major missing values were found.
+3. Score distributions are slightly left-skewed.
+4. Using the IQR method:
+   - 8 outliers in math score
+   - 6 outliers in reading score
+   - 5 outliers in writing score
+5. Outliers were capped instead of removed to preserve real student data.
+6. Strong positive correlation exists between reading and writing scores.
+7. Cleaned dataset was exported after handling outliers.
